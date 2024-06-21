@@ -20,9 +20,7 @@ public class Reservation {
     @Column(columnDefinition = "INT(20)")
     private Long id;
 
-    @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "reservation_date", nullable = false, updatable = false)
-    @CreationTimestamp
     private Date reservationDate;
 
     @Column(length = 20)
