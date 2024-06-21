@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
                         url = "https://github.com/SMoreno73",
                         email = "sebastianmorenoecheverri@gmail.com"
                 ),
-                title = "Documentation: Performance test Api",
+                title = "Documentation: Workshop Api",
                 version = "1.0"
         ),
         servers = {
